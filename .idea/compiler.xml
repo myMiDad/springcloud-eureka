@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="server-10022" />
+        <module name="server-10021" />
+        <module name="springcloud-parent" />
+        <module name="zuul-geteway-9527" />
+        <module name="eureka-10012" />
+        <module name="eureka-10011" />
+        <module name="consumer-10031" />
+        <module name="hystrix-dashboard-10040" />
+        <module name="server-hystrix-10023" />
+        <module name="eureka-10010" />
+        <module name="consumer-feign-10032" />
+        <module name="api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="1.8" />
+      <module name="cloud-eureka" target="1.8" />
+      <module name="cloud-parent-01" target="1.8" />
+      <module name="consumer-10031" target="1.8" />
+      <module name="consumer-10031-feign" target="1.8" />
+      <module name="consumer-feign-10032" target="1.8" />
+      <module name="eureka-10010" target="1.8" />
+      <module name="eureka-10011" target="1.8" />
+      <module name="eureka-10012" target="1.8" />
+      <module name="hystrix-dashboard-10040" target="1.8" />
+      <module name="server-10021" target="1.8" />
+      <module name="server-10022" target="1.8" />
+      <module name="server-hystrix-10023" target="1.8" />
+      <module name="springcloud-01" target="1.8" />
+      <module name="springcloud-parent" target="1.8" />
+      <module name="zuul-geteway-9527" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api" options="-parameters" />
+      <module name="cloud-eureka" options="-parameters" />
+      <module name="cloud-parent-01" options="-parameters" />
+      <module name="consumer-10031" options="-parameters" />
+      <module name="consumer-10031-feign" options="-parameters" />
+      <module name="consumer-feign-10032" options="-parameters" />
+      <module name="eureka-10010" options="-parameters" />
+      <module name="eureka-10011" options="-parameters" />
+      <module name="eureka-10012" options="-parameters" />
+      <module name="hystrix-dashboard-10040" options="-parameters" />
+      <module name="server-10021" options="-parameters" />
+      <module name="server-10022" options="-parameters" />
+      <module name="server-hystrix-10023" options="-parameters" />
+      <module name="springcloud-parent" options="-parameters" />
+      <module name="zuul-geteway-9527" options="-parameters" />
+    </option>
+  </component>
+</project>

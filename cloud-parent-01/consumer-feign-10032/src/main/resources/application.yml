@@ -1,0 +1,24 @@
+server:
+  port: 10032
+
+spring:
+  application:
+    name: Consumer-10032
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10010/eureka,http://localhost:10011/eureka,http://localhost:10012/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ServerConsumer-10032
+feign:
+  hystrix:
+    enabled: true
+SERVERPROVIDE-1002X:
+    #随机策略
+ ribbon:
+  #随机
+  NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+  #先排除多次访问故障的服务器，再选择一个并发量小的服务
+#   NFLoadBalancerRuleClassName: com.netflix.loadbalancer.BestAvailableRule
+#   NFLoadBalancerRuleClassName: com.netflix.loadbalancer.AvailabilityFilteringRule

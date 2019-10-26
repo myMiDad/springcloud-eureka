@@ -1,0 +1,12 @@
+# Project exclude paths
+/cloud-parent-01/api/target/
+/cloud-parent-01/consumer-10031/target/
+/cloud-parent-01/consumer-feign-10032/target/
+/cloud-parent-01/hystrix-dashboard-10040/target/
+/cloud-parent-01/server-10021/target/
+/cloud-parent-01/server-10022/target/
+/cloud-parent-01/server-hystrix-10023/target/
+/cloud-parent-01/zuul-geteway-9527/target/
+/eureka-10010/target/
+/eureka-10011/target/
+/eureka-10012/target/

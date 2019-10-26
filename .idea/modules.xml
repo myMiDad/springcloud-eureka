@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent-01/api/api.iml" filepath="$PROJECT_DIR$/cloud-parent-01/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent-01/cloud-parent-01.iml" filepath="$PROJECT_DIR$/cloud-parent-01/cloud-parent-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent-01/consumer-10031/consumer-10031.iml" filepath="$PROJECT_DIR$/cloud-parent-01/consumer-10031/consumer-10031.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent-01/consumer-feign-10032/consumer-feign-10032.iml" filepath="$PROJECT_DIR$/cloud-parent-01/consumer-feign-10032/consumer-feign-10032.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-10010/eureka-10010.iml" filepath="$PROJECT_DIR$/eureka-10010/eureka-10010.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-10011/eureka-10011.iml" filepath="$PROJECT_DIR$/eureka-10011/eureka-10011.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-10012/eureka-10012.iml" filepath="$PROJECT_DIR$/eureka-10012/eureka-10012.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent-01/hystrix-dashboard-10040/hystrix-dashboard-10040.iml" filepath="$PROJECT_DIR$/cloud-parent-01/hystrix-dashboard-10040/hystrix-dashboard-10040.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent-01/server-10021/server-10021.iml" filepath="$PROJECT_DIR$/cloud-parent-01/server-10021/server-10021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent-01/server-10022/server-10022.iml" filepath="$PROJECT_DIR$/cloud-parent-01/server-10022/server-10022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent-01/server-hystrix-10023/server-hystrix-10023.iml" filepath="$PROJECT_DIR$/cloud-parent-01/server-hystrix-10023/server-hystrix-10023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent-01/zuul-geteway-9527/zuul-geteway-9527.iml" filepath="$PROJECT_DIR$/cloud-parent-01/zuul-geteway-9527/zuul-geteway-9527.iml" />
+    </modules>
+  </component>
+</project>

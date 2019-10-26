@@ -1,0 +1,27 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: Zuul-Gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10010/eureka,http://localhost:10011/eureka,http://localhost:10012/eureka
+  instance:
+    instance-id: myzuul.com
+    prefer-ip-address: true
+zuul:
+#  忽略直接Id访问
+  ignored-services: "*"
+  routes:
+    consumer10031.serviceId: Consumer-10031
+    consumer10031.path: /consumer10031/**
+
+#    访问路径为：其中主机Id必须全部小写
+#  http://myzuul.com:9527/consumer-10032/consumer/user/list
+#  http://myzuul.com:9527/consumer10032/consumer/user/list
+    consumer10032.serviceId: Consumer-10032
+    consumer10032.path: /consumer10032/**
+
